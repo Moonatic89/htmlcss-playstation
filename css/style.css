@@ -78,6 +78,10 @@ img.lens_def {
     width: 100%;
 }
 
+.ext_brd {
+    border-radius: 20px;
+}
+
 .img_round {
     border-radius: 20px;
 }
