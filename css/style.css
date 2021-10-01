@@ -8,6 +8,12 @@
     /* #endregion */
 }
 
+.body {
+    font-family: Arial, sans-serif;
+}
+
+/* #region header */
+
 header .logo {
     height: 30px;
     background-color: black;
@@ -28,3 +34,9 @@ img.lens_def {
 .btn_dark {
     background-color: var(--navButton);
 }
+
+.fw_600 {
+    font-weight: 600;
+}
+
+/* #endregion */
