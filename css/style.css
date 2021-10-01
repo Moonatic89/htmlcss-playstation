@@ -48,10 +48,26 @@ img.lens_def {
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
     width: 100%;
-    height: 1000px;
+    height: 680px;
     background-position: top;
     background-repeat: no-repeat;
     margin-top: 100px;
+}
+
+.jumbo img {
+    height: 2.5rem;
+}
+
+.jumbo .grid, jumbo .row {
+    height: 100%;
+}
+
+.jumbo ul {
+    list-style: none;
+}
+
+.btn_game {
+    background-color: var(--gameButton);
 }
 
 /* #endregion */
