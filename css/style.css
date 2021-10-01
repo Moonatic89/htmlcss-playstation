@@ -47,9 +47,9 @@ img.lens_def {
 
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
-    width: 100%;
     height: 680px;
     background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 100px;
 }
@@ -73,6 +73,14 @@ img.lens_def {
 /* #endregion */
 
 /* #region J Selector  */
+
+.jumbo_selector img {
+    width: 100%;
+}
+
+.img_round {
+    border-radius: 20px;
+}
 
 /* #endregion */
 
