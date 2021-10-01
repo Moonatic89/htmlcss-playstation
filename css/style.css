@@ -1,0 +1,9 @@
+:root {
+    /* #region Color Variables */
+    --navButton: #363636;
+    --gameButton: #CD3D0F;
+    --plusButton: #D9DADC;
+    --plusBack: #BEBCBB;
+    --nowBack: #161C3B;
+    /* #endregion */
+}
