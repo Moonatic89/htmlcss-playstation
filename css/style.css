@@ -7,3 +7,24 @@
     --nowBack: #161C3B;
     /* #endregion */
 }
+
+header .logo {
+    height: 30px;
+    background-color: black;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+img.chevron_def {
+    width: 10px;
+}
+
+img.lens_def {
+    width: 30px;
+}
+
+.btn_dark {
+    background-color: var(--navButton);
+}
