@@ -125,6 +125,8 @@ img.lens_def {
 
 /* I need to change it, i dont want to use !important for now */
 
+/* useless comment added for commit purpose only */
+
 @media screen and (max-width: 576px) {
     .accessories [class*=col] {
         margin: 0!important;
