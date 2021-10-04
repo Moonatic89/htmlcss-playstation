@@ -2,6 +2,7 @@
     /* #region Color Variables */
     --navButton: #363636;
     --gameButton: #CD3D0F;
+    --newRelease: #1f1f1f;
     --plusButton: #D9DADC;
     --plusBack: #BEBCBB;
     --nowBack: #161C3B;
@@ -11,6 +12,18 @@
 .body {
     font-family: Arial, sans-serif;
 }
+
+/* #region Utility */
+
+.fw_600 {
+    font-weight: 600;
+}
+
+f_s08 {
+    font-size: 0.8rem;
+}
+
+/* #endregion */
 
 /* #region header */
 
@@ -33,10 +46,6 @@ img.lens_def {
 
 .btn_dark {
     background-color: var(--navButton);
-}
-
-.fw_600 {
-    font-weight: 600;
 }
 
 /* #endregion */
@@ -120,6 +129,18 @@ img.lens_def {
 
 .released img {
     width: 250px;
+}
+
+/* #endregion */
+
+/* #region New Releases  */
+
+.new_release {
+    background-color: var(--newRelease);
+}
+
+.new_release img {
+    width: 80%;
 }
 
 /* #endregion */
