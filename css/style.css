@@ -70,6 +70,10 @@ img.lens_def {
     background-color: var(--gameButton);
 }
 
+._card {
+    width: 75%;
+}
+
 /* #endregion */
 
 /* #region J Selector  */
@@ -89,6 +93,10 @@ img.lens_def {
 /* #endregion */
 
 /* #region PS5  */
+
+.showcase img {
+    width: 80%;
+}
 
 /* #endregion */
 
