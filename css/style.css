@@ -19,7 +19,7 @@
     font-weight: 600;
 }
 
-f_s08 {
+.f_s08 {
     font-size: 0.8rem;
 }
 
@@ -140,7 +140,8 @@ img.lens_def {
 }
 
 .new_release img {
-    width: 80%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* #endregion */
