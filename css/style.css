@@ -48,7 +48,7 @@ img.lens_def {
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
     height: 680px;
-    background-position: top;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 100px;
@@ -99,7 +99,12 @@ img.lens_def {
 }
 
 .accessories img {
-    width: 25%;
+    width: 100%;
+}
+
+.trademark {
+    vertical-align: top;
+    font-size: .7rem;
 }
 
 /* #endregion */
@@ -117,3 +122,11 @@ img.lens_def {
 /* #endregion */
 
 /* #endregion */
+
+/* I need to change it, i dont want to use !important for now */
+
+@media screen and (max-width: 576px) {
+    .accessories [class*=col] {
+        margin: 0!important;
+    }
+}
