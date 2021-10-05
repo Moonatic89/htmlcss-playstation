@@ -70,7 +70,7 @@ img.lens_def {
     height: 2.5rem;
 }
 
-.jumbo ul, .released ul {
+.jumbo ul, .released ul, .plus ul {
     list-style: none;
 }
 
@@ -151,6 +151,34 @@ img.lens_def {
 /* #endregion */
 
 /* #region Plus  */
+
+/* 
+.plus {
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.plus {
+    background-color: var(--plusBack);
+}
+
+.plus ul img {
+    width: 40%;
+}
+
+.plus_image img {
+    width: 80%;
+}
+
+.plus_image {
+    width: 100%;
+}
+
+.btn_plus {
+    background-color: var(--plusButton);
+}
 
 /* #endregion */
 
