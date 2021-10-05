@@ -204,6 +204,11 @@ footer {
     background-color: #00439C;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .img_little {
     width: 1rem;
 }
