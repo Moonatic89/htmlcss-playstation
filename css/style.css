@@ -152,14 +152,6 @@ img.lens_def {
 
 /* #region Plus  */
 
-/* 
-.plus {
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 .plus {
     background-color: var(--plusBack);
 }
@@ -186,9 +178,31 @@ img.lens_def {
 
 /* #endregion */
 
-/* I need to change it, i dont want to use !important for now */
+/* #region Discounts  */
 
-/* useless comment added for commit purpose only */
+.discounts img {
+    width: 100%;
+}
+
+/* #endregion */
+
+/* #region Prefab  */
+
+/* #endregion */
+
+/* #region Prefab  */
+
+/* #endregion */
+
+/* #region Prefab  */
+
+/* #endregion */
+
+/* #region Prefab  */
+
+/* #endregion */
+
+/* I need to change it, i dont want to use !important for now */
 
 @media screen and (max-width: 576px) {
     .accessories [class*=col] {
