@@ -70,7 +70,7 @@ img.lens_def {
     height: 2.5rem;
 }
 
-.jumbo ul, .released ul, .plus ul {
+.jumbo ul, .released ul, .plus ul, .psnow ul {
     list-style: none;
 }
 
@@ -156,15 +156,15 @@ img.lens_def {
     background-color: var(--plusBack);
 }
 
-.plus ul img {
+.plus ul img, .psnow ul img {
     width: 40%;
 }
 
-.plus_image img {
+.plus_image img, .psnow_image img {
     width: 90%;
 }
 
-.plus_image {
+.plus_image, .psnow_image {
     width: 100%;
 }
 
@@ -180,17 +180,21 @@ img.lens_def {
 
 /* #region Discounts  */
 
-.discounts img {
+.discounts img, .social img {
     width: 100%;
 }
 
 /* #endregion */
 
-/* #region Prefab  */
+/* #region Ps Now  */
+
+.psnow {
+    background-color: var(--nowBack);
+}
 
 /* #endregion */
 
-/* #region Prefab  */
+/* #region Social  */
 
 /* #endregion */
 
