@@ -70,7 +70,7 @@ img.lens_def {
     height: 2.5rem;
 }
 
-.jumbo ul, .released ul, .plus ul, .psnow ul {
+.jumbo ul, .released ul, .plus ul, .psnow ul, footer ul {
     list-style: none;
 }
 
@@ -198,7 +198,23 @@ img.lens_def {
 
 /* #endregion */
 
-/* #region Prefab  */
+/* #region Footer  */
+
+footer {
+    background-color: #00439C;
+}
+
+.img_little {
+    width: 1rem;
+}
+
+.copyright img {
+    width: 25%;
+}
+
+.copyright {
+    width: 50%;
+}
 
 /* #endregion */
 
